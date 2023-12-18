@@ -1,0 +1,13 @@
+[package]
+name = "jup_swap_api_test"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+anyhow = "1.0.75"
+anchor-client = "0.29.0"
+bincode = "1.3.3"
+shellexpand = "3.1.0"
+tokio = { version = "1.35.0", features = ["full"] }
+jupiter-swap-api-client = { git = "https://github.com/jup-ag/jupiter-api-rust-example.git" }
+util = { path = "../../lib/util" }
